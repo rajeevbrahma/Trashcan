@@ -8,7 +8,7 @@ Login to your IBM Bluemix account and locate the “IBM Internet of Things Platf
 Step 2: Launch the Service
 
 Click on the “IBM Internet of Things Platform” service icon to launch the service. Specify the service parameters for Space, App, Service Name and Selected Plan as shown below (on the right side panel), and click on “CREATE” button.
-
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step2.png)
 Note: The Space for the service refers to an IBM Bluemix space that you have to create separately from your Bluemix dashboard.
 
 Once created, a welcome screen will be displayed for your newly launched service.

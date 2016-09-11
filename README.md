@@ -1,5 +1,6 @@
 # Trashcan
 In order to make the communication work between the Trashcan Hardware and mobile app, we will need to setup and configure the IBM IoT service as per our application needs. Follow along the steps given below to launch your IBM IoT service instance. If you do not yet have an IBM Id, this is the time to create one and get started.
+
 Step 1: Locate the “IBM Internet of Things Platform” Service
 
 Login to your IBM Bluemix account and locate the “IBM Internet of Things Platform” under catalog.
@@ -7,6 +8,7 @@ Login to your IBM Bluemix account and locate the “IBM Internet of Things Platf
 Step 2: Launch the Service
 
 Click on the “IBM Internet of Things Platform” service icon to launch the service. Specify the service parameters for Space, App, Service Name and Selected Plan as shown below (on the right side panel), and click on “CREATE” button.
+
 Note: The Space for the service refers to an IBM Bluemix space that you have to create separately from your Bluemix dashboard.
 
 Once created, a welcome screen will be displayed for your newly launched service.

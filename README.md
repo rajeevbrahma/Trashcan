@@ -12,21 +12,29 @@ Click on the “IBM Internet of Things Platform” service icon to launch the se
 Note: The Space for the service refers to an IBM Bluemix space that you have to create separately from your Bluemix dashboard.
 
 Once created, a welcome screen will be displayed for your newly launched service.
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step2.1.png)
 
 Step 3: Launch the service dashboard
 
 Scroll down on the welcome page and you will be able to locate a button “Launch Dashboard” under the “Connect your devices” section.
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.png)
 
 Step 4: Access the device profiles page on the service dashboard
 
 To use this service with IOT devices, we must create the device profiles first. As described in the “Overview” section, we have two devices, the virtual raspberry pi that interfaces with the IOTIFY trashcan simulator and the mobile app. So to facilitate communication between the two devices, we will create a device profile for each.
 In the dashboard page, hover your mouse to left side menu to expand and bring it up.
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.1.png)
+
 Click on the “DEVICES” sub-menu to bring up the Device list page
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.2.png)
+
 And on the same page, click on “Device Types” tab to bring up the device types panel.
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.3.png)
 
 Step 5 : Create device profile for the trash can 
 
 Click on the “Create Type” button on the top right corner of the page to add a new device profile. Follow the sequence of screenshots below to add a device type for the hardware underneath trash can.
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.4.png)
 
 Note: Make sure to select “Create device type” in the above step
 

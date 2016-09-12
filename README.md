@@ -99,7 +99,7 @@ DEVICE SETUP
 step 1: Power On the raspberry.
 step 2: Clone this repository Trashcan
 
-https://github.com/rajeevbrahma/Trashcan.git
+[Trashcan](https://github.com/rajeevbrahma/Trashcan.git)
 
 step 3 : Install Dependency modules ibmiotf and twilio by doing
 
@@ -109,7 +109,7 @@ sudo pip install twilio
 
 Python Script Configuration
 
-You will have to add some configuration settings to make the application work with IBM IoT platform service and Twilio messaging. These configurations are to be done as variables, which are already defined in the trash can's application code under(https://github.com/rajeevbrahma/Trashcan/blob/master/Trashcan.py)
+You will have to add some configuration settings to make the application work with IBM IoT platform service and Twilio messaging. These configurations are to be done as variables, which are already defined in the trash can's application code under[Trashcan.py](https://github.com/rajeevbrahma/Trashcan/blob/master/Trashcan.py)
 
 Edit the variables in the following lines as follows
 Variable name       Line no.           Description
@@ -133,7 +133,7 @@ Mobile App Configuration
 
 The IBM IoT platform configurations has to be done in the mobile app as well, since the mobile app is also registered as a device instance for receiving the readings published by the trash can.
 
-Edit the line numbers in(https://github.com/rajeevbrahma/Trashcan/blob/master/TrashCanApp/www/js/index.js)
+Edit the line numbers in[index.js](https://github.com/rajeevbrahma/Trashcan/blob/master/TrashCanApp/www/js/index.js)
 
 Variable Name        Line no.            Description
 

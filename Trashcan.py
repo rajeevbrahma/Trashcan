@@ -20,11 +20,14 @@ LOG_FILENAME = 'Trashcanlogs.log'
 logging.basicConfig(filename=LOG_FILENAME,level=logging.DEBUG,format='%(asctime)s, %(levelname)s, %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
 
-account_sid = "AC161d5213dce9632db6d2b6febdad21eb" 
-auth_token  = "9ee4b0327f1e3d09b7a8928bb602ac9b"
+account_sid = "AC161d5213dce9632db6d2b6febdad21eb" # Enter your account sid 
+auth_token  = "9ee4b0327f1e3d09b7a8928bb602ac9b"   # Enter your auth token
+
 
 twilioClient = TwilioRestClient(account_sid, auth_token)
 
+twilionumber = "+12512724152" # Your Twilio phone Number you will get it while registration
+receivernumber = "+919738300498" #Your verified phone number
 
 
 # Pin Definitons:                                                                                                                
@@ -67,12 +70,12 @@ NOTIFICATION_TIME_DELAY = 15
 
 def distanceMeasurement():
 	try:
-		global client,deviceType,LOOP_SAMPLING_TIME,NOTIFICATION_TIME_DELAY,CRITICAL_DISTANCE,currentCriticalLevelFlag,criticalLevelChangeOverFlag
+		global client,deviceType,LOOP_SAMPLING_TIME,NOTIFICATION_TIME_DELAY,CRITICAL_DISTANCE,currentCriticalLevelFlag,criticalLevelChangeOverFlag,twilionumber,receivernumber
 		l_prev_distance = 0
 		ultrasonicSensorInit()
 
-		deviceId = "Device"
-		deviceType = "Trashcan"
+		deviceId = "App"
+		deviceType = "Trashcan_app"
 		messageBody = "Trashcan at xyz filled please come to pickup"
 			
 			
@@ -126,7 +129,7 @@ def distanceMeasurement():
 			#This means that in this measurement loop , the changeover has happend 
 			if criticalLevelChangeOverFlag == True:
 				try:
-					message = twilioClient.messages.create(body=messageBody,to="+919738300498",from_="+12512724152")	
+					message = twilioClient.messages.create(body=messageBody,to=receivernumber,from_=twilionumber)	
 				except TwilioRestException as e:
 					logging.error("The exception in twilio %s,%s"(e,type(e)))	
 				
@@ -145,7 +148,7 @@ def distanceMeasurement():
 
 				if diff_minutes > NOTIFICATION_TIME_DELAY:
 					try:								
-						message = twilioClient.messages.create(body=messageBody,to="+919738300498",from_="+12512724152")	
+						message = twilioClient.messages.create(body=messageBody,to=receivernumber,from_=twilionumber)	
 					except TwilioRestException as e:
 						logging.error("The exception in twilio %s,%s"(e,type(e)))	
 					
@@ -169,10 +172,13 @@ Parameters 		:	-
 def init():
 	global client,deviceType
 	organization = "5q764p" #Your organization ID
+	
 	appId = "Device"   # The Device you've created and wants to connect with
 	authMethod = "token" #Method of authentication (the only value currently supported is apikey)
-	authKey = "a-5q764p-eaftbxicyp" #API key (required if auth-method is apikey).
-	authToken = "!xAABG4jR2TlW+k6I?"#API key token (required if auth-method is apikey).
+	
+	authKey = "a-5q764p-ps671tu3kb" #API key (required if auth-method is apikey).
+	authToken = "CPW58F)?&gwsxeDBIn"#API key token (required if auth-method is apikey).
+	
 	deviceType = "Trashcan" # The Type of the device created in your organization 
 	deviceId = "Device" # The Device you've created and wants to connect with                                                                                                       
 	try:

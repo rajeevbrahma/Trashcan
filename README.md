@@ -95,11 +95,12 @@ Click “Finish” on the lower right corner of the dalog to return back to the 
 
 Note:Make sure that you make a note of the API key & authentication token displayed on the screen for your device instance. This token will be used to program the application software later
 
-DEVICE SETUP
+#DEVICE SETUP
 step 1: Power On the raspberry.
+
 step 2: Clone this repository Trashcan
 
-[Trashcan](https://github.com/rajeevbrahma/Trashcan.git)
+      [Trashcan Git Repo](https://github.com/rajeevbrahma/Trashcan.git)
 
 step 3 : Install Dependency modules ibmiotf and twilio by doing
 
@@ -107,9 +108,9 @@ sudo pip install ibmiotf
 
 sudo pip install twilio
 
-Python Script Configuration
+##Python Script Configuration
 
-You will have to add some configuration settings to make the application work with IBM IoT platform service and Twilio messaging. These configurations are to be done as variables, which are already defined in the trash can's application code under[Trashcan.py](https://github.com/rajeevbrahma/Trashcan/blob/master/Trashcan.py)
+You will have to add some configuration settings to make the application work with IBM IoT platform service and Twilio messaging. These configurations are to be done as variables, which are already defined in the trash can's application code under [Trashcan.py](https://github.com/rajeevbrahma/Trashcan/blob/master/Trashcan.py)
 
 Edit the variables in the following lines as follows
 Variable name       Line no.           Description
@@ -129,11 +130,11 @@ Variable name       Line no.           Description
 
       authToken           190                Generated Authentication token
     
-Mobile App Configuration
+#Mobile App Configuration
 
 The IBM IoT platform configurations has to be done in the mobile app as well, since the mobile app is also registered as a device instance for receiving the readings published by the trash can.
 
-Edit the line numbers in[index.js](https://github.com/rajeevbrahma/Trashcan/blob/master/TrashCanApp/www/js/index.js)
+Edit the line numbers in [index.js](https://github.com/rajeevbrahma/Trashcan/blob/master/TrashCanApp/www/js/index.js)
 
 Variable Name        Line no.            Description
 
@@ -144,7 +145,7 @@ Variable Name        Line no.            Description
       auth-token           61                  Generated authentication token  
       
       
-Steps to Build the Mobile App
+##Steps to Build the Mobile App
 
 For building the mobile app, please refer to the official Cordova & Android documentation to setup the build dependencies. You will have to setup a build system with the dependencies, primarily the NodeJS, Java and Ant among others.
 

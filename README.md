@@ -98,7 +98,9 @@ Note:Make sure that you make a note of the API key & authentication token displa
 DEVICE SETUP
 step 1: Power On the raspberry.
 step 2: Clone this repository Trashcan
+
 https://github.com/rajeevbrahma/Trashcan.git
+
 step 3 : Install Dependency modules ibmiotf and twilio by doing
 
 sudo pip install ibmiotf

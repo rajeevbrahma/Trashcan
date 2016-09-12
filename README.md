@@ -48,6 +48,44 @@ At last, we will have the two device types listed as per our project requirement
 Step 7: Create device instances
 
 We now have the device types defined in the service. The next thing is to define the actual device itself which acts as a virtual identifier (device id) for every device instance that is going to access the service. In our case, we have the raspberry pi and the mobile app as our two device instances.
-So lets go ahead and add them by clicking on the “Add Device” button under the “Browse” tab of “Devices” section in the dashboard.
 
-Lets create the device,by selecting a device type
+So lets go ahead and add them by clicking on the “Add Device” button under the “Browse” tab of “Devices” section in the dashboard.
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.9.png)
+Lets create the device,by selecting a device type "Trashcan"
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.10.png)
+And,assign a unique name to the device,Device in this case.
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.11.png)
+Note: Just like in the case of adding device types, we can ignore the other steps in creating device and hit Next until we reach the end of “Add Device” dialog.
+
+As part of the final step, we will be presented with the device credentials of this newly added device.
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.12.png)
+Similarly,let also create another device instance for the mobile app
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.13.png)
+
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.14.png)
+
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.15.png)
+
+We now have the devices also listed in the IBM IoT Platform service, and that concludes the device provisioning.
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.16.png)
+
+Note: Make a note of the Organization ID displayed in the "Your Device Credentials" Section of "Add Device" dialog.This will be required for programming the device SDKS
+
+Step 8: Generate API Key and Auth Token
+
+Now that all the devices are created , we need to generate the API key and auth token to access the IBM IOT service from our end point devices.
+
+For this, go to the “APPS” sub-menu
+
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step7.1.png)
+
+Now,click on the "Generate API Key" button.
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step7.2.png)
+
+You will see the API key and Auth token being displayed on a dialog. Make a note of these parameters.
+
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step7.4.png)
+
+Click “Finish” on the lower right corner of the dalog to return back to the “API Keys” tab and you can now see your newly generated API credentials listed over there.
+
+Note:Make sure that you make a note of the API key & authentication token displayed on the screen for your device instance. This token will be used to program the application software later

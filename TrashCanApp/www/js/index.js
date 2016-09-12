@@ -95,7 +95,7 @@ var app = {
             }
 
 
-            if (level>=220 && level <=299){ 
+            if (level>=22 && level <=40){ 
                 $(s1).hide();
                 $(s2).hide();
                 $(s3).hide();
@@ -109,7 +109,7 @@ var app = {
                 $("#s11").prop("hidden", true); 
                 
             }
-            else if(level<= 220 && level>=161 ){ 
+            else if(level<= 25 && level>=19 ){ //220 161
                 $(s1).hide();
                 $(s2).hide();
                 $(s3).hide();
@@ -122,7 +122,7 @@ var app = {
                 $(s9,$garbage).attr('style',"fill:"+color_orange);
                 $(s10,$garbage).attr('style',"fill:"+color_orange);
             }
-            else if(level<= 160&& level>=101){ 
+            else if(level<= 18&& level>=15){ 
                 $(s1).hide();
                 $(s2).hide();
                 $(s3).hide();
@@ -135,7 +135,20 @@ var app = {
                 $(s9,$garbage).attr('style',"fill:"+color_orange);
                 $(s10,$garbage).attr('style',"fill:"+color_orange);
             }
-            else if(level<=100 && level>=65){ 
+             else if(level<=14 && level>=10){ //100 65
+                $(s1).hide();
+                $(s2).hide();
+                $(s3).hide();                
+                $("#s11").prop("hidden", true);
+                $(s4).hide();
+                $(s5).hide();
+                $(s6).hide();                
+                $(s7,$garbage).attr('style',"fill:"+color_orange);
+                $(s8,$garbage).attr('style',"fill:"+color_orange);
+                $(s9,$garbage).attr('style',"fill:"+color_orange);
+                $(s10,$garbage).attr('style',"fill:"+color_orange);
+            }
+            else if(level<=9 && level>=7){ //100 65
                 $(s1).hide();
                 $(s2).hide();
                 $(s3).hide();                
@@ -148,7 +161,7 @@ var app = {
                 $(s9,$garbage).attr('style',"fill:"+color_orange);
                 $(s10,$garbage).attr('style',"fill:"+color_orange);
             }
-            else if(level<=60){ 
+            else if(level<=6){//60 
                 
                 $("#s11").prop("hidden", true);
                 $(s1,$garbage).attr('style',"fill:"+color_red);

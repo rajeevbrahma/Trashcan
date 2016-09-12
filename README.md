@@ -119,16 +119,16 @@ Variable name       Line no.           Description
 
       auth_token          24                 Twilio account authToken
 
-      twilionumber        28                 Twilio Number ( Your Twilio subscribed number)
+      twilionumber        29                 Twilio Number ( Your Twilio subscribed number)
 
-      receivernumber      29                 Twilio verified number (where you want to receive the SMS notifications). 
+      receivernumber      30                 Twilio verified number (where you want to receive the SMS notifications). 
                                              Should have country code, for example +18458892405
 
-      organization        182                IBM account organization ID
+      organization        174                IBM account organization ID
 
-      authKey             189                Generated API key
+      authKey             179                Generated API key
 
-      authToken           190                Generated Authentication token
+      authToken           180                Generated Authentication token
     
 #Mobile App Configuration
 

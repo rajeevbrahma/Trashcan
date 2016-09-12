@@ -37,13 +37,18 @@ Click on the “Create Type” button on the top right corner of the page to add
 ![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.4.png)
 
 Note: Make sure to select “Create device type” in the above step
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.5.png)
 
 Click on the “Next” button on the bottom right corner of the “Create Device Type” dialog to move through the steps. All the subsequent steps are optional and can be skipped. Finally, the device type will be created and listed under the “Device Types” tab panel.
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.6.png)
 
 Step 6: Create device profile for the mobile app
 
 Now we can follow the same steps to create another device type in “IBM IoT Platform” for the mobile app.
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.7.png)
+
 At last, we will have the two device types listed as per our project requirement.
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.8.png)
 
 Step 7: Create device instances
 

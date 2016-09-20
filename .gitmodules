@@ -1,3 +1,0 @@
-[submodule "TrashCanApp/www/js/iot-nodejs"]
-	path = TrashCanApp/www/js/iot-nodejs
-	url = https://github.com/ibm-watson-iot/iot-nodejs

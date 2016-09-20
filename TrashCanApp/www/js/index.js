@@ -53,12 +53,12 @@ var app = {
         var Client = require('ibmiotf');
         var appClientConfig = {
         "org" : "5q764p",
-        "id" : "Device",
+        "id" : "App",
         "domain": "internetofthings.ibmcloud.com",
-        "type" : "Trashcan",
+        "type" : "Trashcan_app",
         "auth-method" : "token",
-        "auth-key":"a-5q764p-eaftbxicyp",
-        "auth-token" : "!xAABG4jR2TlW+k6I?"
+        "auth-key":"a-5q764p-ec1lodvzrb",
+        "auth-token" : "2!PaS+l(epe&_zvl)J"
         };
       appClient = new Client.IotfApplication(appClientConfig);
       
@@ -67,7 +67,7 @@ var app = {
        console.log('connected');
         appClient.on('connect', function () {
             
-            appClient.subscribeToDeviceEvents("Trashcan");
+            appClient.subscribeToDeviceEvents("Trashcan_app");
             app.subscribe();
 
              

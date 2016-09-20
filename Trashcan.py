@@ -176,8 +176,8 @@ def init():
 	appId = "Device"   # The Device you've created and wants to connect with
 	authMethod = "token" #Method of authentication (the only value currently supported is apikey)
 	
-	authKey = "a-5q764p-ps671tu3kb" #API key (required if auth-method is apikey).
-	authToken = "CPW58F)?&gwsxeDBIn"#API key token (required if auth-method is apikey).
+	authKey = "a-5q764p-ec1lodvzrb" #API key (required if auth-method is apikey).
+	authToken = "2!PaS+l(epe&_zvl)J"#API key token (required if auth-method is apikey).
 	
 	deviceType = "Trashcan" # The Type of the device created in your organization 
 	deviceId = "Device" # The Device you've created and wants to connect with                                                                                                       

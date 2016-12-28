@@ -1,18 +1,24 @@
 # Trashcan
 In order to make the communication work between the Trashcan Hardware and mobile app, we will need to setup and configure the IBM IoT service as per our application needs. Follow along the steps given below to launch your IBM IoT service instance. If you do not yet have an IBM Id, this is the time to create one and get started.
 
-Step 1: Locate the “IBM Internet of Things Platform” Service
 
-Login to your IBM Bluemix account and locate the “IBM Internet of Things Platform” under catalog.
+Login to your IBM Bluemix account. 
+
+Step 1: Locate the “IBM Internet of Things Platform” Service under catalog.
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step1.png)
 
 Step 2: Launch the Service
 
-Click on the “IBM Internet of Things Platform” service icon to launch the service. Specify the service parameters for Space, App, Service Name and Selected Plan as shown below (on the right side panel), and click on “CREATE” button.
-![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step2.png)
-Note: The Space for the service refers to an IBM Bluemix space that you have to create separately from your Bluemix dashboard.
+Click on the “IBM Internet of Things Platform” service icon to launch the service. Specify the service parameters 
+1.Service Name 
+2.Connect to (You can specify an existing Application name to connect this service application in Bluemix or you can make it Leave unbound if you dont want to connect)
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step2.1.png)
+3.Selected Plan as shown below, and click on “CREATE” button(on the right side panel).
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step2.2.png)
+
 
 Once created, a welcome screen will be displayed for your newly launched service.
-![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step2.1.png)
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step2.3.png)
 
 Step 3: Launch the service dashboard
 
@@ -21,7 +27,7 @@ Scroll down on the welcome page and you will be able to locate a button “Launc
 
 Step 4: Access the device profiles page on the service dashboard
 
-To use this service with IOT devices, we must create the device profiles first. As described in the “Overview” section, we have two devices, the virtual raspberry pi that interfaces with the IOTIFY trashcan simulator and the mobile app. So to facilitate communication between the two devices, we will create a device profile for each.
+To use this service with IOT devices, we must create the device profiles first. As described in the “Overview” section, we have two devices, the raspberry pi that connected with the ultrasonic sensor mounted on top of the trash can and the mobile app. So to facilitate communication between the two devices, we will create a device profile for each.
 In the dashboard page, hover your mouse to left side menu to expand and bring it up.
 ![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.1.png)
 

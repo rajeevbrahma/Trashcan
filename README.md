@@ -9,21 +9,18 @@ Step 1: Locate the “IBM Internet of Things Platform” Service under catalog.
 
 Step 2: Launch the Service
 
-Click on the “IBM Internet of Things Platform” service icon to launch the service. Specify the service parameters 
-1.Service Name 
+Click on the “IBM Internet of Things Platform” service icon to launch the service. Specify the service parameters <br>
+1.Service Name <br>
 2.Connect to (You can specify an existing Application name to connect this service application in Bluemix or you can make it Leave unbound if you dont want to connect)
 ![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step2.1.png)
 3.Selected Plan as shown below, and click on “CREATE” button(on the right side panel).
 ![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step2.2.png)
 
-
-Once created, a welcome screen will be displayed for your newly launched service.
-![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step2.3.png)
-
 Step 3: Launch the service dashboard
 
+Once created, a welcome screen will be displayed for your newly launched service.
 Scroll down on the welcome page and you will be able to locate a button “Launch Dashboard” under the “Connect your devices” section.
-![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.png)
+![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step2.3.png)
 
 Step 4: Access the device profiles page on the service dashboard
 

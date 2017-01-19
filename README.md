@@ -1,5 +1,8 @@
-# Trashcan
-In order to make the communication work between the Trashcan Hardware and mobile app, we will need to setup and configure the IBM IoT service as per our application needs. Follow along the steps given below to launch your IBM IoT service instance. If you do not yet have an IBM Id, this is the time to create one and get started.
+# Smart Trash Can Powered by IBM Bluemix
+
+This is the accompanying repository for the following blog post.
+
+In order to make the communication work between the Trash can Hardware and mobile app, we will need to setup and configure the IBM IoT service as per our application needs. Follow along the steps given below to launch your IBM IoT service instance. If you do not yet have an IBM Id, this is the time to create one and get started.
 
 
 Login to your IBM Bluemix account. 
@@ -24,7 +27,7 @@ Scroll down on the welcome page and you will be able to locate a button “Launc
 
 Step 4: Access the device profiles page on the service dashboard
 
-To use this service with IOT devices, we must create the device profiles first. As described in the “Overview” section, we have two devices, the raspberry pi that connected with the ultrasonic sensor mounted on top of the trash can and the mobile app. So to facilitate communication between the two devices, we will create a device profile for each.
+To use this service with IOT devices, we must create the device profiles first. As described in the blog, we have two devices, the raspberry pi that is connected with the ultrasonic sensor mounted on top of the trash can and the mobile app. So to facilitate communication between the two devices, we will create a device profile for each.
 In the dashboard page, hover your mouse to left side menu to expand and bring it up.
 ![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.1.png)
 
@@ -67,7 +70,7 @@ Note: Just like in the case of adding device types, we can ignore the other step
 
 As part of the final step, we will be presented with the device credentials of this newly added device.
 ![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.12.png)
-Similarly,let also create another device instance for the mobile app
+Similarly,lets also create another device instance for the mobile app
 ![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.13.png)
 
 ![alt-tag](https://github.com/rajeevbrahma/Trashcan/blob/master/screenshots/step3.14.png)

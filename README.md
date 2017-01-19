@@ -1,6 +1,6 @@
 # Smart Trash Can Powered by IBM Bluemix
 
-This is the accompanying repository for the following blog post.
+This is the accompanying repository for the [this blog post](http://radiostud.io/build-iot-enabled-smart-bin-ibm-bluemix/).
 
 In order to make the communication work between the Trash can Hardware and mobile app, we will need to setup and configure the IBM IoT service as per our application needs. Follow along the steps given below to launch your IBM IoT service instance. If you do not yet have an IBM Id, this is the time to create one and get started.
 
